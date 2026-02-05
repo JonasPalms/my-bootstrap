@@ -1,7 +1,128 @@
-# Brew Bundle file
-#
-# Populate on an existing machine with:
-#   ./scripts/dump-brewfile.sh
-#
-# Then copy `~/.Brewfile` into this repo as `dot_Brewfile`.
-
+tap "azure/functions"
+tap "homebrew/services"
+tap "microsoft/mssql-release"
+tap "mongodb/brew"
+# Run your GitHub Actions locally
+brew "act"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Library to communicate with iOS devices natively
+brew "libimobiledevice"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+brew "nginx"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Tools for and transforming and inspecting PDF files
+brew "qpdf"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Terminal multiplexer
+brew "tmux"
+# Generate your Xcode project from a spec file and your folder structure
+brew "xcodegen"
+# JavaScript package manager
+brew "yarn"
+# Azure Functions Core Tools 4.0
+brew "azure/functions/azure-functions-core-tools@4"
+# This package contains standard utilities for interacting with MongoDB.
+brew "mongodb/brew/mongodb-database-tools"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Developer platform
+cask "dotnet-sdk"
+# Reimagine your terminal
+cask "fig"
+# Utility to hide menu bar items
+cask "hiddenbar"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Command-line shell and scripting language
+cask "powershell"
+# Rust-based terminal
+cask "warp"
+vscode "amazonwebservices.codewhisperer-for-command-line-companion"
+vscode "antfu.iconify"
+vscode "astro-build.astro-vscode"
+vscode "azurite.azurite"
+vscode "bradlc.vscode-tailwindcss"
+vscode "christian-kohler.npm-intellisense"
+vscode "coderfin.logical-properties"
+vscode "cpylua.language-postcss"
+vscode "dbaeumer.vscode-eslint"
+vscode "digitalbrainstem.javascript-ejs-support"
+vscode "docker.docker"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "eamodio.gitlens"
+vscode "ecmel.vscode-html-css"
+vscode "edwinsulaiman.jetbrains-rider-dark-theme"
+vscode "enkia.tokyo-night"
+vscode "esbenp.prettier-vscode"
+vscode "eseom.nunjucks-template"
+vscode "expo.vscode-expo-tools"
+vscode "fosshaas.fontsize-shortcuts"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.vscode-github-actions"
+vscode "mrmlnc.vscode-postcss-sorting"
+vscode "ms-azuretools.vscode-bicep"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-dotnettools.vscodeintellicode-csharp"
+vscode "ms-playwright.playwright"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.powershell"
+vscode "mtxr.sqltools"
+vscode "mtxr.sqltools-driver-mysql"
+vscode "pkief.material-icon-theme"
+vscode "pulkitgangwar.nextjs-snippets"
+vscode "quicktype.quicktype"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.liveserver"
+vscode "rodrigovallades.es7-react-js-snippets"
+vscode "sallar.json-to-js-object"
+vscode "sdras.night-owl"
+vscode "sdras.vue-vscode-snippets"
+vscode "simonsiefke.svg-preview"
+vscode "stkb.rewrap"
+vscode "styled-components.vscode-styled-components"
+vscode "teabyii.ayu"
+vscode "toba.vsfire"
+vscode "twxs.cmake"
+vscode "vitest.explorer"
+vscode "vue.volar"
+vscode "wmaurer.change-case"
+vscode "yoavbls.pretty-ts-errors"
+vscode "zhuangtongfa.material-theme"
+vscode "zignd.html-css-class-completion"
