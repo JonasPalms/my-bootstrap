@@ -1,0 +1,21 @@
+[user]
+	email = jonas.p.sorensen@gmail.com
+	name = JonasPalms
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[alias]
+	pushd = push -u origin HEAD
+	cb = "!f() { git checkout -b \"$1\"; }; f"
+	sb = "!f() { git checkout \"$1\"; }; f"
+[push]
+	autoSetupRemote = true
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[commit]
+	template = ~/.stCommitMsg
+[init]
+	defaultBranch = main

@@ -1,0 +1,7 @@
+# Brew Bundle file
+#
+# Populate on an existing machine with:
+#   ./scripts/dump-brewfile.sh
+#
+# Then copy `~/.Brewfile` into this repo as `dot_Brewfile`.
+
