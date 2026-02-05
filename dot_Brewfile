@@ -54,6 +54,7 @@ cask "alt-tab"
 cask "dotnet-sdk"
 # Reimagine your terminal
 cask "fig"
+cask "font-meslo-lg-nerd-font"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Terminal emulator as alternative to Apple's Terminal app

@@ -5,6 +5,11 @@ if [[ -d "$HOME/.oh-my-zsh" ]]; then
   exit 0
 fi
 
+if ! command -v git >/dev/null 2>&1; then
+  echo "git not found. Install Xcode Command Line Tools and re-run: chezmoi apply" >&2
+  exit 1
+fi
+
 echo "Installing oh-my-zsh..."
 export RUNZSH=no
 export CHSH=no
@@ -16,4 +21,3 @@ if [[ ! -d "$P10K_DIR" ]]; then
   echo "Installing powerlevel10k theme..."
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$P10K_DIR"
 fi
-
