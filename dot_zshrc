@@ -105,8 +105,11 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# NVM source set to this file
-source ~/.nvm/nvm.sh
+# NVM via Brew
+export NVM_DIR="$HOME/.nvm"
+mkdir -p "$NVM_DIR"
+source "$(brew --prefix nvm)/nvm.sh"
+
 # pnpm
 export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"

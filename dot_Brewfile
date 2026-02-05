@@ -24,6 +24,8 @@ brew "mkcert"
 brew "neovim"
 # HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
 brew "nginx"
+# Manage multiple Node.js versions
+brew "nvm"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Interpreted, interactive, object-oriented programming language
