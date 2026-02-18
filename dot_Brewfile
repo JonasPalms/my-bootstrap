@@ -59,12 +59,21 @@ cask "docker-desktop"
 cask "font-meslo-lg-nerd-font"
 # Web browser
 cask "google-chrome"
+# Arc browser
+cask "arc"
+# AI desktop assistants
+cask "claude"
+cask "chatgpt"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Native macOS terminal
+cask "ghostty"
 # Team communication platform
 cask "slack"
+# Microsoft Teams client
+cask "microsoft-teams"
 # Team communication and communities
 cask "discord"
 # Design and prototyping tool
@@ -81,13 +90,16 @@ cask "raycast"
 cask "tailscale-app"
 # Source-code editor
 cask "visual-studio-code"
+# Source-code editor
+cask "cursor"
+# Source-code editor
+cask "zed"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Command-line shell and scripting language
 cask "powershell"
 # Rust-based terminal
 cask "warp"
-vscode "amazonwebservices.codewhisperer-for-command-line-companion"
 vscode "antfu.iconify"
 vscode "astro-build.astro-vscode"
 vscode "azurite.azurite"
