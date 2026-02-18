@@ -50,12 +50,12 @@ brew "azure/functions/azure-functions-core-tools@4"
 brew "mongodb/brew/mongodb-database-tools"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# App uninstaller utility
+cask "appcleaner"
 # Developer platform
 cask "dotnet-sdk"
 # Docker Desktop
 cask "docker-desktop"
-# Reimagine your terminal
-cask "fig"
 cask "font-meslo-lg-nerd-font"
 # Web browser
 cask "google-chrome"
