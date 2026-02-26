@@ -28,7 +28,6 @@ safe_clean_root_targets() {
   rm -f \
     "$ROOT/dot_zshrc" \
     "$ROOT/dot_zprofile" \
-    "$ROOT/dot_p10k.zsh" \
     "$ROOT/dot_gitconfig" \
     "$ROOT/dot_gitignore_global"
   rm -rf "$ROOT/dot_warp"
@@ -65,7 +64,6 @@ echo
 
 copy_file "$HOME/.zshrc" "$DEST_BASE/dot_zshrc"
 copy_file "$HOME/.zprofile" "$DEST_BASE/dot_zprofile"
-copy_file "$HOME/.p10k.zsh" "$DEST_BASE/dot_p10k.zsh"
 copy_file "$HOME/.gitconfig" "$DEST_BASE/dot_gitconfig"
 copy_file "$HOME/.gitignore_global" "$DEST_BASE/dot_gitignore_global"
 
